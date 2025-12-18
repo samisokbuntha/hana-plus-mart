@@ -1,0 +1,67 @@
+.container {
+    background: #fff;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.product-image img {
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: #f5a623;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 28px;
+    color: #1a2b6d;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.actions input {
+    width: 60px;
+    padding: 5px;
+}
+
+.actions button {
+    background: #1a2b6d;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.actions button:hover {
+    background: #0f1b4d;
+}
+
+.info p {
+    margin: 5px 0;
+    color: #333;
+}
